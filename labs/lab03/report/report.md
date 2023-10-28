@@ -80,13 +80,13 @@ header-includes:
 						Рис.1
 
 Далее добавляю по инструкции в path:
- ![Рис.1](/home/dkivanenko/Downloads/a2.png){#fig:001 width=70%} 
+ ![Рис.2](/home/dkivanenko/Downloads/a2.png){#fig:001 width=70%} 
 						Рис.2
 
 2. Скачивание архивов Pandoc и Pandoc- crossref
 
 Скачиваю архив Pandoc, версия 2.18:
- ![Рис.1](/home/dkivanenko/Downloads/a3.png){#fig:001 width=70%} 
+ ![Рис.3](/home/dkivanenko/Downloads/a3.png){#fig:001 width=70%} 
 						Рис.3
 
 
@@ -95,54 +95,54 @@ header-includes:
 
 
 Скачиваю архив Pandoc- crossref, версия 0.3.13.0 :
- ![Рис.1](/home/dkivanenko/Downloads/a4.png){#fig:001 width=70%} 
+ ![Рис.4](/home/dkivanenko/Downloads/a4.png){#fig:001 width=70%} 
 						Рис.4
 
 Затем я распаковал все архивы, которые скачал:
-![Рис.1](/home/dkivanenko/Downloads/a5.png){#fig:001 width=70%}
+![Рис.5](/home/dkivanenko/Downloads/a5.png){#fig:001 width=70%}
 						Рис.5
 
 Далее копиую каталоги в /usr/local/bin
- ![Рис.1](/home/dkivanenko/Downloads/a6.png){#fig:001 width=70%} 
+ ![Рис.6](/home/dkivanenko/Downloads/a6.png){#fig:001 width=70%} 
 						Рис.6
 
 
 Заполнение отчета по выполнению лабораторной работы №4 с помощью языка разметки Markdown:
 
 Перехожу в каталог, который был создан на прошлой лабороторной работе:
- ![Рис.1](/home/dkivanenko/Downloads/a7.png){#fig:001 width=70%} 
+ ![Рис.7](/home/dkivanenko/Downloads/a7.png){#fig:001 width=70%} 
 						Рис.7
 
 Далее обновляем локальный репризиторий, скачивая изменения с удаленного репризитория:
- ![Рис.1](/home/dkivanenko/Downloads/a8.png){#fig:001 width=70%} 
+ ![Рис.8](/home/dkivanenko/Downloads/a8.png){#fig:001 width=70%} 
 						Рис.8 
 
 Затем я перехожу в нужную директорию и компилирую шаблон, используя make:
- ![Рис.1](/home/dkivanenko/Downloads/a9.png){#fig:001 width=70%} 
+ ![Рис.9](/home/dkivanenko/Downloads/a9.png){#fig:001 width=70%} 
 						Рис.9
 Затем открываю файл с помощью тесктового редактора, в моем случае это libre office, проверяю, все ли открылось:
- ![Рис.1](/home/dkivanenko/Downloads/a10.png){#fig:001 width=70%} 
+ ![Рис.10](/home/dkivanenko/Downloads/a10.png){#fig:001 width=70%} 
 						Рис.10
 
 
 По алгоритму удаляю все файлы из report с помощью make clear:
- ![Рис.1](/home/dkivanenko/Downloads/a11.png){#fig:001 width=70%} 
+ ![Рис.11](/home/dkivanenko/Downloads/a11.png){#fig:001 width=70%} 
 						Рис.11
 Проверяю, что все выполнилось:
- ![Рис.1](/home/dkivanenko/Downloads/a12.png){#fig:001 width=70%} 
+ ![Рис.12](/home/dkivanenko/Downloads/a12.png){#fig:001 width=70%} 
 						Рис.12
 						
 Далее приступаю к редактированию отсчета report.md.
-![Рис.1](/home/dkivanenko/Downloads/a13.png){#fig:001 width=70%} 
+![Рис.13](/home/dkivanenko/Downloads/a13.png){#fig:001 width=70%} 
 						Рис.13
 И выгружаю все файлы на гитхаб.
-
+![Рис.14](/home/dkivanenko/Downloads/a14.png){#fig:001 width=70%} 
 						Рис.14
 
 
 # Выводы
 
-Здесь кратко описываются итоги проделанной работы.
-
+В результате выполнения данной лабороторной работы я освоил процедуры оформления отчетов с помощью легковесного языка разметки 
+Markdown
 
 :::
