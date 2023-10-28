@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Отчет по лабороторной работе №2"
+subtitle: "Дисциплина: Архитектура копмьютеров"
+author: "Иваненко Дмитрий"
 
 ## Generic otions
 lang: ru-RU
@@ -67,15 +67,8 @@ header-includes:
 ---
 
 # Цель работы
-
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
-
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
+Целью данной работы является изучить применение средств контроля версий, а также приобрести
+навыки поработу с системой git.
 
 # Задание
 
@@ -105,10 +98,86 @@ header-includes:
 
 # Выполнение лабораторной работы
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. @fig:001).
-
-![Название рисунка](image/placeimg_800_600_tech.jpg){#fig:001 width=70%}
-
+2.4.2. Базовая настройка git:
+Настроим utf-8 в выводе сообщений git,зададим имя начальной ветки, параметр autocrlf
+и параметр safecrlf рис. 1.
+![Рис.1](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a1.png{#fig:001 width=70%} 
+Рис.1
+2.4.3. Создание SSH ключа
+Генерируем ключ рис.2
+![Рис.2](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a2.png{#fig:001 width=70%}
+Рис.2
+Копируем с помощью xclip:Рис.3 используем xclip
+Далее просто копируем ключ в специальное поле на странице github.com рис 3.
+![Рис.3](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a3.png{#fig:001 width=70%}
+Рис.3
+2.4.4. Сознание рабочего пространства и репозитория курса на основе
+Шаблона
+Создаю директорию с помощью mkdir, благодаря ключу -p создаю все
+директории после домашней ~/work/study/2023-2024/“Computer architecture”
+рекурсивно. Далее проверяю с помощью ls правильность выполнения рис.4
+![Рис.4](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a4.png{#fig:001 width=70%}
+Рис.4
+2.4.5. Сознание репозитория курса на основе шаблона
+Перехожу по заданной директории и создаю репрезиторий рис.5Рис.5
+2.4.5 Создание репозитура шаблона на основе шаблона
+В консоли меняем директорию
+![Рис.6](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a6.png{#fig:001 width=70%}
+Рис.6
+Копирую ссылку на репрезиторий:
+![Рис.7](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a7.png{#fig:001 width=70%}
+Рис.7
+Далее копирую репрезиторий с помощью git@github.com:/study_2023–2024_arh-pc.git arch-pc
+git
+clone
+–recursive
+![Рис.8](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a8.png{#fig:001 width=70%}
+Рис.8
+4.6 Настройка каталога курса
+Перехожу в каталог arch-pc с помощью cd
+![Рис.9](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a9.png{#fig:001 width=70%}
+Рис.9
+Удаляю лишние файлы с помощью утилиты rm и создаю необходимые каталоги
+![Рис.10](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a10.png{#fig:001 width=70%}
+Рис.10
+Отправляю созданные каталоги на сервер, добавляю все созданные каталоги с
+помощью git add, комментирую и сохраняю изменения как добавление курса с
+помощью git commit рис. 11
+![Рис.11](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a11.png{#fig:001 width=70%}
+Рис.11
+Далее отправляем изменения на сервер с помощью push
+![Рис.12](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a12.png{#fig:001 width=70%}
+Рис.12
+Проверяю правильность выполнения:
+![Рис.13](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a13.png{#fig:001 width=70%}
+Рис.13
+4.7 Выполнение заданий для самостоятельной работы
+1. Перехожу в директорию labs/lab02/report с помощью утилиты cd.
+Создаю в каталоге файл для отчета по третьей лабораторной работе с помощью touch
+![Рис.14](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a14.png{#fig:001 width=70%}
+Рис.14
+Перемещаюсь между дерикториями:
+![Рис.15](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a15.png{#fig:001 width=70%}
+Рис.15
+Проверяю местоположение файлов первой лабораторной работы:
+![Рис.16](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a16.png{#fig:001 width=70%}
+Рис.16
+Копируем файлы первой лабороторной работы в указанную директорию (рис. 17 и 18)
+![Рис.17](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a17.png{#fig:001 width=70%}
+Рис.17
+![Рис.18](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a18.png{#fig:001 width=70%}
+Рис.18
+Добавляю файл на сервер
+![Рис.19](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a19.png{#fig:001 width=70%}
+Рис.19
+Делаю то же самое для второй лабороторной работы. Для этого меняю деректорию,
+добавляю с помощью git add нужный файл, сохраняю изменения с помощью git
+Commit
+![Рис.20](/home/dkivanenko/work/study/2023-2024/"Computer architecture"/archi-pc/labs/lab02/report/image/a20.png{#fig:001 width=70%}
+Рис.20
+Отправляю в центральный репозиторий сохраненные изменения командой git push -f
+origin masterРис.21
+И проверяю правильность на самом сайте
 # Выводы
 
 Здесь кратко описываются итоги проделанной работы.
